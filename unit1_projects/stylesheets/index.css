@@ -28,6 +28,8 @@ div {
 }
 ul {
 	text-align:center;
+	list-style-type: none;
+	padding-left: 5px;
 }
 h3 {
 	text-align: center;
