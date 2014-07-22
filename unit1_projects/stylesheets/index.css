@@ -6,6 +6,9 @@ div {
 .center {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top:20px;
+	border-radius: 50px;
+	padding:10px;
 	width:15%;
 	background-color: #FB4644;
 }
