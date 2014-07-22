@@ -19,6 +19,7 @@ div {
 	border-radius: 100px;
 	padding:10px;
 	width:15%;
+	height:30px;
 	background-color: #FB4644;
 
 }
@@ -33,4 +34,15 @@ ul {
 }
 h3 {
 	text-align: center;
+}
+a:link {
+	color: #262E3D;
+}
+
+a:visited {
+	color: #262E3D;
+}
+
+a:hover {
+	color: #02C1C1;
 }
