@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -47,6 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a:link {
+	color:black;
+}
+a:visited{
+	color:green;
+}
+
 a:hover{
 	color:red;
 }
