@@ -73,6 +73,11 @@ h4 {
   right: 15px;
 }
 
+@font-face {
+  font-family: myfont;
+  src: /stylesheets/font/Entypo-webfont.woff;
+}
+
 
 /* Header */
 #header {
@@ -83,6 +88,7 @@ h4 {
   color: #FFEECC;
   background: url('../images/icons/it.png') no-repeat 0 50%;
   padding-left: 40px;
+  @font
 }
 #header .nav {
   float: right;
