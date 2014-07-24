@@ -42,6 +42,7 @@ li {
     display: inline;
     font-size: 2em;
     text-align: center;
+    padding:2px;
 }
 
 a{
