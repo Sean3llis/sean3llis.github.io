@@ -33,7 +33,7 @@ h4 { margin-top: 0;}
 
 @media screen and (max-width: 988px) {
 	body {
-		width: 80%;
+		width: 95%;
 		padding: 4% 0;
 	}
 }
@@ -42,5 +42,8 @@ h4 { margin-top: 0;}
 	.left_col, .right_col {
 		float: none;
 		width: 100%;  
+	}
+	body {
+		width: 95%;
 	}
 }
