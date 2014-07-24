@@ -1,6 +1,11 @@
 .header {
 	background-color: red;
 	padding: 1em;
+	margin-bottom: 0.5em;
+}
+
+div {
+	background-color: red;
 }
 
 body {
