@@ -1,8 +1,6 @@
-/*Just for testing...1,2,3
-div {background-color: #777; margin-bottom: 5px;}
-.left_col, .right_col {background-color: #333;}
-body {background-color: #999;}
-*/
+.header {
+	background-color: #fff;
+}
 
 body {
    margin: 0px auto;
