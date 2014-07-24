@@ -8,6 +8,15 @@ body {
     background-color: #E8F2EA;
 }
 
+h3 {
+    color:#E8F2EA;
+    text-align: center;
+    font-size: 1em;
+    vertical-align: bottom;
+    line-height: 1em;
+    font-style: italic;
+}
+
 #title {
     color:#E8F2EA;
     text-align: center;
