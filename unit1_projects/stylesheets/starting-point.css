@@ -31,14 +31,14 @@ h4 { margin-top: 0;}
 	width: 47.5%;
 }
 
-@media screen and (max-width: 988px) {
+@media screen and (max-width: 1050px) {
 	body {
 		width: 95%;
 		padding: 4% 0;
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 	.left_col, .right_col {
 		float: none;
 		width: 100%;  
