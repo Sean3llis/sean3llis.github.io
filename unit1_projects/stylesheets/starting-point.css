@@ -6,13 +6,12 @@
 
 div {
 	background-color: red;
-	padding: 1%;
 }
 
 body {
    margin: 0px auto;
    padding: 40px 0;
-   width: 1050px;
+   width: 988px;
 }
 
 h1 { text-align:center;}
