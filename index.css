@@ -101,7 +101,7 @@ a:hover {
 /*==================== Media Queries ========================*/
 
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 480px) {
     #nav li {
         text-decoration: none;
     }
