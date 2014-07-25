@@ -1,97 +1,147 @@
+/*====================Title Section=========================*/
 
-* {
-    font-family: Verdana, sans-serif;
+.titlebar {
+    background-image: url('/Users/Sean/Documents/DBC/Seane235.github.io/unit1_projects/images/geometry2.png');
+    height: 15%;
+    margin-top: 0;
+    padding: 40px;
+    box-shadow: 0 5px 0px 0px #CDCEC4;
 }
 
-
-body {
-    background-color: #E8F2EA;
-}
-
-#title {
-    color:#E8F2EA;
-    text-align: center;
+#nameplate {
+    color: #FF5F4C;
     font-size: 4em;
-    vertical-align: middle;
-    line-height: 1em;
-}
-
-h5 {
-    color:#E8F2EA;
+    font-family: Arial;
     text-align: center;
-    font-size: 1em;
-    vertical-align: bottom;
-    line-height: 1em;
-    font-style: italic;
+    margin: 4% 0 0 0;
 }
 
-.header-container {
-    background-color: #1C424C;
-    display: block;
-    height: 400px;
-    padding-top: 100px;
+#subtitle {
+    color: #FF5F4C;
+    font-size: 1.15em;
+    font-family: Garamond;
+    text-align: center;
+    margin: 0;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
+/*==================== Nav Bar ===============================*/
+
+
+#nav {
+    text-align: center;
 }
 
-li {
+#nav li {
     display: inline;
+    padding-right: 1%;
+}
+
+/*==================== Content Section ========================*/
+
+.postname {
+    color: #FF5F4C;
     font-size: 2em;
-    text-align: center;
+    font-family: Arial;
 }
 
-a{
-    display: block;
-
+.content {
+    font-size: 1em;
+    color: #757268;
+    font-family: Arial, sans-serif;
 }
-img {
-    width: 100%;
+
+.leftpost {
+    float:left;
+    margin-top: 2% 1% 100px 1%;
+    background-color: #f9fafb;
+    width: 47%
+}
+
+.rightpost {
+    float:right;
+    margin-top: 100px 1% 2% 1%;
+    background-color: #f9fafb;
+    width: 47%
+}
+
+.boxmain {
+    box-shadow: 0 5px 0px 0px #CDCEC4;
+    padding: 2%;
+}
+
+h2 {
     margin:0;
 }
 
-.wireframe {
-    width: 300px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-footer {
-    background-color: #1C424C;
-    display: block;
-    vertical-align: middle;
-    padding: 1em;
-}
-
 p {
-    color:#E8F2EA;
-    text-align: center;
     font-size: 1em;
-    vertical-align: middle;
-    font-style: italic;
 }
 
+/*==================== Body + Links ========================*/
 
-a:link {
-    text-decoration: none;
-    color: #1C424C;
+body {
+    width: 100%
 }
 
-a:visited {
+a {
+    color: #FF5F4C;
+    font-size: 2.5em;
+    font-family: Arial, sans-serif;
     text-decoration: none;
-    color:#1C424C;
 }
 
 a:hover {
+    color: #f9fafb;
+    background-color: #FF5F4C;
+    font-size: 2.5em;
+    font-family: Arial, sans-serif;
     text-decoration: none;
-    background-color: #1C424C;
-    color: #E8F2EA;
 }
 
-a:active {
-    text-decoration: none;
+/*==================== Media Queries ========================*/
+
+
+@media screen and (max-width: 709px) {
+    #nav li {
+        text-decoration: none;
+    }
+
+    a {
+        color: #FF5F4C;
+        font-size: 1em;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+        background-color: #f9fafb;
+        display: block;
+        line-height: 2em;
+        margin-right: 60px;
+        margin-left: 0;
+        box-shadow: 0 5px 0px 0px #FF5F4C;
+
+    }
+
+    a:hover {
+        background-color: #FF5F4C;
+        font-size: 1em;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+    }
+    .leftpost, .rightpost {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #nameplate {
+        font-size: 3em;
+    }
+    #subtitle {
+        font-size: 0.85em;
+    }
 }
+
+
+/*
+* {
+    border: 1px solid black;
+}
+*/
