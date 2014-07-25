@@ -52,14 +52,14 @@
 
 .leftpost {
     float:left;
-    margin-top: 2% 1% 100px 1%;
+    margin: 15px 0px 0px 15px;
     background-color: #f9fafb;
     width: 47%
 }
 
 .rightpost {
     float:right;
-    margin-top: 100px 1% 2% 1%;
+    margin: 15px 25px 0px 0px;
     background-color: #f9fafb;
     width: 47%
 }
@@ -128,7 +128,7 @@ a:hover {
     }
     .leftpost, .rightpost {
         float: none;
-        width: 100%;
+        width: 95%;
         margin-top: 30px;
     }
     #nameplate {
