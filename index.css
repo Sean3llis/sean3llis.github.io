@@ -140,6 +140,46 @@ a:hover {
     }
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #nav li {
+        text-decoration: none;
+    }
+
+    a {
+        color: #FF5F4C;
+        font-size: 1em;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+        background-color: #f9fafb;
+        display: block;
+        line-height: 2em;
+        margin-right: 60px;
+        margin-left: 0;
+        box-shadow: 0 5px 0px 0px #FF5F4C;
+
+    }
+
+    a:hover {
+        background-color: #FF5F4C;
+        font-size: 1em;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+    }
+    .leftpost, .rightpost {
+        float: none;
+        width: 95%;
+        margin-top: 30px;
+    }
+    #nameplate {
+        font-size: 3em;
+    }
+    #subtitle {
+        font-size: 0.85em;
+    }
+}
+
 
 /*
 * {
