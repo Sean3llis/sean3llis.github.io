@@ -11,12 +11,12 @@ var main = function() {
 	});
 	$('.boxmain').mouseenter(function(){
 		$(this).animate({
-			height: '+=5px'
+			height: '+=15px'
 		});
 	});
 	$('.boxmain').mouseleave(function() {
 		$(this).animate({
-			height: '-=5px'
+			height: '-=15px'
 		});
 	});
 };
