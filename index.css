@@ -52,6 +52,7 @@
 
 .leftpost {
     float:left;
+    clear:left;
     margin: 15px 0px 0px 15px;
     background-color: #f9fafb;
     width: 47%
@@ -59,6 +60,7 @@
 
 .rightpost {
     float:right;
+    clear:right;
     margin: 15px 25px 0px 0px;
     background-color: #f9fafb;
     width: 47%
@@ -67,7 +69,6 @@
 .boxmain {
     box-shadow: 0 5px 0px 0px #CDCEC4;
     padding: 2%;
-    margin-top: 15px;
 }
 
 h2 {
