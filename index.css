@@ -71,7 +71,7 @@ body {
 }
 
 .boxmain {
-    box-shadow: 0 5px 0px 0px #477A65;
+    box-shadow: 5px 5px 0px 0px #477A65;
     padding: 2%;
 }
 
