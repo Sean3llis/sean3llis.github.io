@@ -5,7 +5,7 @@
     height: 15%;
     margin-top: 0;
     padding: 40px;
-    box-shadow: 0 5px 0px 0px #CDCEC4;
+    box-shadow: 0 5px 0px 0px #6EC2A1;
 }
 
 #nameplate {
@@ -71,7 +71,7 @@ body {
 }
 
 .boxmain {
-    box-shadow: 0 5px 0px 0px #CDCEC4;
+    box-shadow: 0 5px 0px 0px #6EC2A1;
     padding: 2%;
 }
 
