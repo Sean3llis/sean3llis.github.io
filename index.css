@@ -67,6 +67,7 @@
 .boxmain {
     box-shadow: 0 5px 0px 0px #CDCEC4;
     padding: 2%;
+    margin-top: 15px;
 }
 
 h2 {
