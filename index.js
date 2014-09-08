@@ -1,10 +1,10 @@
 $(document).ready(function() {
-	$('.titlebar').mouseenter(function() {
+	$('div').mouseenter(function() {
 		$(this).animate({
 			height: '+=60px'
 		});
 	});
-	$('.titlebar').mouseleave(function() {
+	$('div').mouseleave(function() {
 		$(this).animate({
 			height: '-=60px'
 		});
