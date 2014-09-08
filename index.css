@@ -9,7 +9,7 @@
 }
 
 #nameplate {
-    color: #FF5F4C;
+    color: #A2EBBD;
     font-size: 4em;
     font-family: Arial;
     text-align: center;
@@ -17,7 +17,7 @@
 }
 
 #subtitle {
-    color: #FF5F4C;
+    color: #A2EBBD;
     font-size: 1.15em;
     font-family: Garamond;
     text-align: center;
@@ -43,7 +43,7 @@ body {
 /*==================== Content Section ========================*/
 
 .postname {
-    color: #FF5F4C;
+    color: #A2EBBD;
     font-size: 2em;
     font-family: Arial;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 a {
-    color: #FF5F4C;
+    color: #A2EBBD;
     font-size: 2.5em;
     font-family: Arial, sans-serif;
     text-decoration: none;
@@ -99,7 +99,7 @@ a {
 
 a:hover {
     color: #f9fafb;
-    background-color: #FF5F4C;
+    background-color: #A2EBBD;
     font-size: 2.5em;
     font-family: Arial, sans-serif;
     text-decoration: none;
@@ -114,7 +114,7 @@ a:hover {
     }
 
     a {
-        color: #FF5F4C;
+        color: #A2EBBD;
         font-size: 1em;
         font-family: Arial, sans-serif;
         text-decoration: none;
@@ -123,12 +123,12 @@ a:hover {
         line-height: 2em;
         margin-right: 60px;
         margin-left: 0;
-        box-shadow: 0 5px 0px 0px #FF5F4C;
+        box-shadow: 0 5px 0px 0px #A2EBBD;
 
     }
 
     a:hover {
-        background-color: #FF5F4C;
+        background-color: #A2EBBD;
         font-size: 1em;
         font-family: Arial, sans-serif;
         text-decoration: none;
@@ -154,7 +154,7 @@ and (max-device-width : 480px) {
     }
 
     a {
-        color: #FF5F4C;
+        color: #A2EBBD;
         font-size: 1em;
         font-family: Arial, sans-serif;
         text-decoration: none;
@@ -163,12 +163,12 @@ and (max-device-width : 480px) {
         line-height: 2em;
         margin-right: 60px;
         margin-left: 0;
-        box-shadow: 0 5px 0px 0px #FF5F4C;
+        box-shadow: 0 5px 0px 0px #A2EBBD;
 
     }
 
     a:hover {
-        background-color: #FF5F4C;
+        background-color: #A2EBBD;
         font-size: 1em;
         font-family: Arial, sans-serif;
         text-decoration: none;
