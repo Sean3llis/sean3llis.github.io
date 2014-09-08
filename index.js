@@ -6,7 +6,7 @@ $(document).ready(function() {
 	});
 	$('.titlebar').mouseleave(function() {
 		$(this).animate({
-			height: '+=50px'
+			height: '-=50px'
 		});
 	});
 });
