@@ -58,7 +58,7 @@ body {
     float:left;
     clear:left;
     margin: 15px 0px 0px 15px;
-    background-color: #f9fafb;
+    background-color: #E1FFE7;
     width: 47%
 }
 
@@ -66,12 +66,12 @@ body {
     float:right;
     clear:right;
     margin: 15px 25px 0px 0px;
-    background-color: #f9fafb;
+    background-color: #E1FFE7;
     width: 47%
 }
 
 .boxmain {
-    box-shadow: 5px 5px 0px 0px #477A65;
+    box-shadow: 5px 5px 0px -10px #477A65;
     padding: 2%;
 }
 
