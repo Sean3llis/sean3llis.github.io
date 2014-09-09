@@ -52,6 +52,10 @@ body {
     font-family: Arial;
 }
 
+.postname:hover {
+    color: #477A65;
+}
+
 .content {
     font-size: 1em;
     color: #757268;
