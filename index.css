@@ -50,6 +50,7 @@ body {
     color: #A2EBBD;
     font-size: 2em;
     font-family: Arial;
+    transition: .5s;
 }
 
 .postname:hover {
