@@ -28,7 +28,7 @@ html {
   margin: 5px 10px;
 }
 
-li a {
+a {
   display: inline-block;
   text-decoration: none;
   width: 200px;
@@ -57,6 +57,8 @@ li a:hover {
 #welcome h1:hover {
   text-shadow: 2px 3px 3px black;
 }
+
+
 
 .center {
   margin-top: -20px;
