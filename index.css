@@ -28,13 +28,19 @@ html {
   margin: 5px 10px;
 }
 
-a {
+li a {
   display: inline-block;
   text-decoration: none;
   width: 200px;
   color: black;
   transition: 1s;
 }
+
+h2 a {
+  font-family: edmondsans, sans-serif;
+  font-size: 20px;
+}
+
 li a:hover {
   color: red;
   text-decoration: underline;
