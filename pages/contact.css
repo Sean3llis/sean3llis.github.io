@@ -28,21 +28,21 @@ html {
   margin: 5px 10px;
 }
 
-li a {
+.menu li a {
   display: inline-block;
   text-decoration: none;
   width: 200px;
   color: black;
   transition: 1s;
 }
-li a:hover {
+.menu li a:hover {
   color: red;
   text-decoration: underline;
 }
 
 @font-face {
   font-family: edmondsans;
-  src: url(fonts/edmondsans-medium.otf);
+  src: url('../fonts/Edmondsans-Medium.otf');
 }
 
 #welcome h1 {
@@ -58,70 +58,43 @@ li a:hover {
   text-shadow: 2px 3px 3px black;
 }
 
-.center {
-  margin-top: -20px;
+.main {
+  background-color: white;
   margin-right: auto;
   margin-left: auto;
+  width: 80%;
   padding: 5px;
-  border: 2px black;
-  background: rgba(0, 0, 0, 0.3);
-  opacity: 0.8;
-  transition: 1s;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.5);
 }
 
-.center:hover {
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.center p{
-  line-height: 23px;
-  font-size: 1.3em;
+.main ul{
+  list-style: none;
   text-align: center;
+}
+
+.main ul li {
+  font-size: 2em;
   font-family: edmondsans, sans-serif;
-  color: white;
-  transition: 0.5s;
+  margin: 15px 30px 0px 0px;
+  display: inline-block;
 }
 
-
-hr {
-  width: 30%;
-  border-color: white;
+.main li:hover {
+  text-decoration: none;
 }
 
-#tophr {
-  margin-bottom: -15px;
-}
-
-#bottomhr {
-  margin-top: -15px;
-}
-
-.cta {
-  background: rgba(0, 0, 0, 0.3);
-  width: 20%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 3px 0px 3px 0px;
-  margin-top: 30px;
-  border-radius: 3px;
-  transition: 0.5s;
-}
-
-.cta:hover {
-  background: rgba(0, 0, 0, 0.6);
-}
-
-.cta h2 {
-  font-family: edmondsans;
-  color: white;
-  text-align: center;
-  font-size: 1.3em;
+a {
+  text-decoration: none;
+  color: black;
   transition: 1s;
 }
 
-.cta h2:hover {
+a:hover {
+  color: red;
   text-decoration: underline;
 }
+
 
 .footer {
   text-align: center;
