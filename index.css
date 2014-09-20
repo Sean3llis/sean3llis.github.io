@@ -1,10 +1,5 @@
 html { 
-  background: url(https://s3.amazonaws.com/ooomf-com-files/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg) 
-  repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('illusion.png')
 }
 
 
