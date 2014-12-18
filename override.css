@@ -7,21 +7,103 @@
 *
 */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #2D2E2F;
+}
+
 
 body {
 	background-color: #DAFFF2;
 }
-/*
-div {
+
+
+/*div {
 	border: 1px solid black;
-}*/
+}
+*/
+
+.col-center {
+  float: none;
+  margin: 0 auto;
+}
+
+.col-center > img {
+	margin: 0 auto;
+}
 
 .nameplate {
 	color: #2D2E2F;
-	font-size: 10em;
+	font-size: 8em;
 }
 
 .name-contain {
-	margin-top: 5em;
 	text-align: center;
 }
+
+.stripe {
+	margin: 0 auto;
+	margin-top: 1px;
+	width: 100%;
+}
+
+.sgray {
+	background-color: #2D2E2F;
+	height: 1em;
+}
+
+.snavy {
+	background-color: #09464C;
+	height: 1em;
+}
+
+.sblue {
+	background-color: #105B63;
+	height: 1em;
+}
+
+.sred {
+	background-color: #BD4932;
+	height: 1em;
+}
+
+.sorange {
+	background-color: #F0A72B;
+	height: 1em;
+}
+
+.syellow {
+	background-color: #FFD34E;
+	height: 1em;
+}
+
+.scream {
+	background-color: #FFFAD5;
+	height: 1em;
+}
+
+.rainbow {
+	margin: 0 auto;
+	border-bottom: 1px solid #2D2E2F;
+	width: 50%;
+}
+
+.svg {
+	fill: #2D2E2F;
+}
+
+
+
+
+
+
+
+
+
+
+
