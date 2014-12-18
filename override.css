@@ -1,0 +1,27 @@
+/*
+* light blue DAFFF2
+* cream FFFAD5
+* gray 2D2E2F
+*
+*
+*
+*/
+
+
+body {
+	background-color: #DAFFF2;
+}
+/*
+div {
+	border: 1px solid black;
+}*/
+
+.nameplate {
+	color: #2D2E2F;
+	font-size: 10em;
+}
+
+.name-contain {
+	margin-top: 5em;
+	text-align: center;
+}
