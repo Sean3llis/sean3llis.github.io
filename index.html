@@ -6,28 +6,22 @@
   </head>
   <body>
     <div class="front-page"
-      data-0="background-position: +20px"
-      data-500="background-position: -80px"
+      data-0="background-position: 0px 0px"
+      data-650="background-position: 0px +300px"
+    >
+      <img src="svg/se_logo.svg" class="img-logo"
+        data-start="transform: translateY(0px) scale(1)"
+        data-top-bottom="transform: translateY(110px) scale(0.8)"
+      >
+    </div>
+    <div class="row">
+      <div class="col-lg-6 dark-gray content"><h1>asdf</h1></div>
+      <div class="col-lg-6 medium-gray content"><h1>o3iuf</h1></div>
+    </div>
+    <div class="img-divide"
+      data-bottom-top="background-position: 0px 0px"
+      data-top-bottom="background-position: 0px +300px"
     ></div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
 
 
@@ -40,7 +34,11 @@
 
     <script type="text/javascript" src="javascripts/skrollr.min.js"></script>
     <script type="text/javascript">
-    var s = skrollr.init();
+    var s = skrollr.init({
+      render: function(data){
+        console.log(data.curTop)
+      }
+    });
     </script>
   </body>
 
