@@ -1,15 +1,15 @@
 var data = [
     {
-        value: 85,
+        value: 88,
         color: "#2f2f2f",
         highlight: "#191919",
         label: "Javascript"
     },
     {
-        value: 80,
+        value: 85,
         color:"#2f2f2f",
         highlight: "#191919",
-        label: "Ruby"
+        label: "Ruby (on rails)"
     },
     {
         value: 80,
@@ -18,23 +18,29 @@ var data = [
         label: "CSS3/HTML5"
     },
     {
-        value: 65,
-        color: "#2f2f2f",
-        highlight: "#191919",
-        label: "AngularJS"
-    },
-    {
-        value: 60,
+        value: 67,
         color: "#2f2f2f",
         highlight: "#191919",
         label: "ChartJS"
     },
     {
-        value: 60,
+        value: 58,
         color: "#2f2f2f",
         highlight: "#191919",
         label: "SkrollrJS"
-    }
+    },
+    {
+        value: 50,
+        color: "#2f2f2f",
+        highlight: "#191919",
+        label: "AngularJS"
+    },
+    {
+        value: 90,
+        color: "#2f2f2f",
+        highlight: "#191919",
+        label: "Photoshop/Illustrator/InDesign"
+    },
 
 ];
 
@@ -83,10 +89,21 @@ var options = {
 
 }
 
+var drawChart = true
+
+window.onscroll = checkWindow
+
+function checkWindow(){
+	if(window.scrollY > 1460 && drawChart){
+		console.log('drawing')
+		drawChart()
+	}
+}
+
 var drawChart = function(){
 	var ctx = document.getElementById("chart").getContext('2d');
 	var myNewChart = new Chart(ctx).PolarArea(data);
 	new Chart(ctx).PolarArea(data,options);
+	drawChart = false
 }
 
-drawChart()
