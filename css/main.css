@@ -2,9 +2,7 @@
 /*main gray: 2f2f2f */
 /*dark gray: 191919 */
 
-.gray {
-	background-color: #2f2f2f;
-}
+
 
 .cream {
 	background-color: #f5f3e3;
@@ -115,18 +113,34 @@ header {
 .about-me {
 	position: relative;
 	background-color: #191919;
-	padding: 1em 5em 0.5em 5em;
+	padding: 1em 5em 4em 5em;
 	text-align: center;
-	height: 800px;
 }
 		.about-me h1 {
-			margin-top: 10px;
+			margin-top: 20px;
 			color: #f5f3e3;
 		}
 		.about-me h4 {
 			margin-top: 20px;
 			color: #f5f3e3;
 		}
+
+.icons-desc {
+	color: #f5f3e3;
+	margin-top: 50px;
+}
+
+	.icons-desc img {
+		width: 150px;
+		margin-bottom: 10px;
+	}
+
+.icon-label {
+	background-color: #2f2f2f;
+	width: 100%;
+	padding: 0.5em;
+	border-radius: 5px;
+}
 
 /*//////////////// DIVIDER ////////////////*/
 .divider-one {
@@ -152,10 +166,8 @@ header {
 }
 
 #chart {
-
+	display: inline;
 }
-
-
 
 
 /*//////////////// RESUME ////////////////*/
@@ -182,9 +194,7 @@ header {
 	padding: 1em;
 }
 
-#chart {
-	display: inline;
-}
+
 
 
 

@@ -53,7 +53,7 @@ Chart.defaults.global = {
     scaleFontColor: "#666",
 
     // Boolean - whether or not the chart should be responsive and resize when the browser does.
-    responsive: true,
+    responsive: false,
 
     // Boolean - whether to maintain the starting aspect ratio or not when responsive, if set to false, will take up entire container
     maintainAspectRatio: true,
@@ -219,7 +219,7 @@ var drawChart = true
 window.onscroll = checkWindow
 
 function checkWindow(){
-	if(window.scrollY > 1460 && drawChart){
+	if(window.scrollY > 1360 && drawChart){
 		drawChart()
 	}
 }
