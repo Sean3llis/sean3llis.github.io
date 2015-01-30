@@ -219,7 +219,7 @@ var drawChart = true
 window.onscroll = checkWindow
 
 function checkWindow(){
-	if(window.scrollY > 1360 && drawChart){
+	if(window.scrollY > 1200 && drawChart){
 		drawChart()
 	}
 }
