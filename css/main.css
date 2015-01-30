@@ -159,11 +159,7 @@ header {
 		color: #f5f3e3;
 	}
 /*//////////////// CHART ////////////////*/
-.chart-div {
-	width: 100%;
-	background-color: #f5f3e3;
-	
-}
+
 
 #chart {
 	display: inline;
@@ -172,28 +168,44 @@ header {
 
 /*//////////////// RESUME ////////////////*/
 
-
 .resume-wrapper {
-	padding: 3em;
+	padding: 1em;
 	text-align: center;
+}
+
+#resume {
+	background-color: #f5f3e3;
+	padding: 2em;
 }
 
 .resume table td{
 	background-color: #2f2f2f;
 	color: #f5f3e3;
+	padding: 3em;
+	text-align: center;
 }
 
 .resume table tr:nth-child(even){
 	color: #191919;
 }
 
+/*//////////////// DIVIDER TWO ////////////////*/
 
-.resume {
-	height: 800px;
-	background-color: #f5f3e3;
-	padding: 1em;
+.divider-two {
+	background-image: url("../img/atomspheres.png");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 300px;
+	text-align: center;
+	margin-top: -20px;
 }
 
+	.divider-two h1 {
+		font-size: 4em;
+		position: relative;
+		top: 40%;
+		color: #f5f3e3;
+	}
 
 
 
