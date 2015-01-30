@@ -178,17 +178,6 @@ header {
 	padding: 2em;
 }
 
-.resume table td{
-	background-color: #2f2f2f;
-	color: #f5f3e3;
-	padding: 3em;
-	text-align: center;
-}
-
-.resume table tr:nth-child(even){
-	color: #191919;
-}
-
 /*//////////////// DIVIDER TWO ////////////////*/
 
 .divider-two {
@@ -208,6 +197,13 @@ header {
 	}
 
 
+
+/*//////////////// PROJECTS ////////////////*/
+
+.projects {
+	height: 800px;
+	background-color: #191919;
+}
 
 
 
