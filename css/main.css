@@ -113,7 +113,7 @@ header {
 .about-me {
 	position: relative;
 	background-color: #191919;
-	padding: 1em 5em 4em 5em;
+	padding: 1em 5em 1em 5em;
 	text-align: center;
 }
 		.about-me h1 {
@@ -201,13 +201,39 @@ header {
 /*//////////////// PROJECTS ////////////////*/
 
 .projects {
-	height: 800px;
+	padding: 2em;
 	background-color: #191919;
 }
 
+.caption {
+	text-align: center;
+}
+
+/*//////////////// DIVIDER THREE ////////////////*/
+
+.divider-three {
+	background-image: url("../img/atomspheres_inverse.png");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 300px;
+	text-align: center;
+	margin-top: -20px;
+}
 
 
+/*//////////////// FOOTER ////////////////*/
 
+footer {
+	padding: 3em;
+	color: 191919;
+	text-align: center;
+	background-color: #f5f3e3;
+	height: 500px;
+}
 
-
+  footer img {
+  	max-width: 200px;
+  	position: relative;
+  	margin-top: 100px;
+  }
 
